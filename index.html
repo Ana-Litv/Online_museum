@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Коллеция Поклада В.П.</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
   </head>
 
   <body>
@@ -44,11 +49,12 @@
         <header class="header">Церковь Ризоположения</header>
         <article>
           <p class="location">с. Бородава, Вологодская обл., 1485 г.</p>
-          <img
-            src="https://thumbs2.imgbox.com/10/d5/efr035QE_t.jpg"
-            alt="Церковь Ризоположения"
-          />
-
+          <a
+            href="https://images2.imgbox.com/74/70/uHy1HO3K_o.jpg"
+            data-fancybox
+          >
+            <img src="https://thumbs2.imgbox.com/74/70/uHy1HO3K_t.jpg" />
+          </a>
           <p>
             Это самая древняя из сохранившихся до нашего времени деревянных
             церквей, дата основания которой подтверждена документально. Перенос
@@ -87,11 +93,12 @@
           <p class="location">
             д. Насоновщина, о. Волкостров, Карелия, XVII в.
           </p>
-          <img
-            src="https://thumbs2.imgbox.com/ef/b8/3tyNdRB4_t.jpg"
-            alt="Часовня Петра и Павла"
-          />
-
+          <a
+            href="https://images2.imgbox.com/b8/94/nGvIBuE6_o.jpg"
+            data-fancybox
+          >
+            <img src="https://thumbs2.imgbox.com/b8/94/nGvIBuE6_t.jpg" />
+          </a>
           <p>
             В 1945 году часовня была обследована архитекторами А. Н. Буйновым и
             И. К. Рыбченко. В 1953 году часовню отреставрировали по проекту
@@ -120,11 +127,12 @@
         <header class="header">Часовня Спаса Нерукотворного</header>
         <article>
           <p class="location">д. Вигово, Карелия, XVII-XVIII вв.</p>
-          <img
-            src="https://thumbs2.imgbox.com/83/86/GwNidN2k_t.jpg"
-            alt="Часовня Спаса Нерукотворного"
-          />
-
+          <a
+            href="https://images2.imgbox.com/31/d8/8z37K104_o.jpg"
+            data-fancybox
+          >
+            <img src="https://thumbs2.imgbox.com/31/d8/8z37K104_t.jpg" />
+          </a>
           <p>
             В XVII веке было срублено основное помещение, а в XVIII веке к нему
             прирубили сени с шатровой звонницей над ними, восьмерик которой
@@ -150,11 +158,12 @@
         <header class="header">Церковь Успения Пресвятой Богородицы</header>
         <article>
           <p class="location">г. Кондопога, Карелия, 1774 г.</p>
-          <img
-            src=" https://thumbs2.imgbox.com/74/a1/ep1O7egW_t.jpg"
-            alt="Церковь Успения Пресвятой Богородицы"
-          />
-
+          <a
+            href="https://images2.imgbox.com/a8/15/FNM6bQv4_o.jpg"
+            data-fancybox
+          >
+            <img src="https://thumbs2.imgbox.com/a8/15/FNM6bQv4_t.jpg" />
+          </a>
           <p>
             Первое упоминание о церкви в деревне Кондопоге относится к 1563
             году. Через 20 лет она сгорела во время Ливонской войны, сожженная
@@ -198,11 +207,12 @@
         <header class="header">Часовня Архангела Михаила</header>
         <article>
           <p class="location">д. Леликозеро, Карелия, XVII в.</p>
-          <img
-            src="https://thumbs2.imgbox.com/41/3a/xndrUjdG_t.jpg"
-            alt="Часовня Архангела Михаила"
-          />
-
+          <a
+            href="https://images2.imgbox.com/27/16/BqYWHJGp_o.jpg"
+            data-fancybox
+          >
+            <img src="https://thumbs2.imgbox.com/27/16/BqYWHJGp_t.jpg" />
+          </a>
           <p>
             Часовня срублена в XVII веке, позже к ней прирубили сени с шатровой
             звонницей, восьмерик которой рублен из бруса в “лапу”.В 1961 году ее
@@ -225,5 +235,8 @@
         </article>
       </section>
     </main>
+    <script>
+      Fancybox.bind("[data-fancybox]", {});
+    </script>
   </body>
 </html>
